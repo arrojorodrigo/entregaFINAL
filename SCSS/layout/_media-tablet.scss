@@ -1,0 +1,9 @@
+
+
+@media (max-width: 576px) {
+    .container-grid {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(8, 1fr); }
+    .navbar {
+      flex-direction: column;
+      justify-content: center; } }
