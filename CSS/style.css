@@ -8,8 +8,8 @@ ul li {
 
 .box-img {
   border-radius: 50%;
-  width: 50%;
-  height: 50%;
+  width: 40%;
+  height: 40%;
   object-fit: contain; }
 
 .box {
@@ -26,11 +26,52 @@ ul li {
   margin-top: 3%;
   text-align: center; }
 
+.container-grid {
+  background-color: rgba(41, 83, 29, 0.207);
+  display: grid;
+  height: 30vh;
+  width: 100%;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(2, 50px);
+  justify-content: space-evenly;
+  align-content: center; }
+
+.box-inf {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  grid-template-rows: repeat(2, 100px);
+  justify-content: space-evenly; }
+
 .form-contact {
   color: white;
   font-family: 'Courier New', Courier, monospace;
-  width: 100px;
+  width: 300px;
   position: absolute;
   top: 10%;
-  left: 40%;
+  left: 50%;
   transform: translate(-60%, 10%); }
+
+.contact {
+  padding: .8rem;
+  overflow: hidden; }
+  .contact label, .contact input, .contact textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px; }
+  .contact label {
+    font-weight: 700; }
+  .contact textarea {
+    min-height: 100px; }
+
+input {
+  padding: 10px;
+  cursor: pointer; }
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px; }
