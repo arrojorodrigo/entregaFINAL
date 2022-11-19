@@ -8,7 +8,7 @@ ul li {
     list-style: none;
 }
 
-.box-img {
+.box-img {    //IMAGEN INICIO
     border-radius: 50%;
     width: 40%;
     height: 40%;
@@ -32,7 +32,7 @@ ul li {
 
 }
 
-.container-grid{                   //PAGE ARTISTICUS
+.container-grid{      //PAGE ARTISTICUS
     background-color: rgba(41, 83, 29, 0.207);
     display: grid;
     height: 30vh;
@@ -44,15 +44,13 @@ ul li {
 }
 
 
-.box-inf {
-    padding: 30px;
-    display: grid;
-    grid-template-columns: repeat(2, 300px);
-    grid-template-rows: repeat(2, 100px);
+ .box-inf {    //PAGE INFORMATICUS
+     padding: 30px;
+     display: grid;
+     grid-template-columns: repeat(2, 300px);
+     grid-template-rows: repeat(2, 100px);
     justify-content: space-evenly;
-}
-
-
+ }
 
 .form-contact {       //FORMULARIO DE CONTACTO
     color: white;
